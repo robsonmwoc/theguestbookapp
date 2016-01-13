@@ -1,0 +1,27 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+    - 'db/schema.rb'
+
+Rails:
+  Enabled: true
+
+Style/Encoding:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+
+Style/StringLiterals:
+  Enabled: true
+  Exclude:
+    - 'bin/*'
+    - 'config/application.rb'
+
+Style/AccessModifierIndentation:
+  EnforcedStyle: outdent

@@ -1,0 +1,22 @@
+// Place all the styles related to the entries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+  h1 { text-align: center; }
+}
+
+.messages {
+  h3 {
+    background: #EEE;
+    padding: 10px;
+  }
+
+  thead tr td { font-weight: bold; }
+}

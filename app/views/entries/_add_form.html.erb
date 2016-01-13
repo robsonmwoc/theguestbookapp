@@ -1,0 +1,7 @@
+<div class="container">
+  <%= bootstrap_form_for(@entry) do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_area :message %>
+    <%= f.submit "Add message" %>
+  <% end %>
+</div>

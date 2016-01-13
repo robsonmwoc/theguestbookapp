@@ -1,0 +1,29 @@
+<div class="container messages">
+  <h3>Messages</h1>
+
+  <% if @entries && @entries.any? %>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Message</td>
+        <td>Time</td>
+        <td> - </td>
+      </tr>
+    </thead>
+    <% @entries.each do |entry| %>
+    <tr id="entry_<%= entry.id %>">
+      <td><%= entry.name %></td>
+      <td><%= entry.message %></td>
+      <td><%= time_ago_in_words(entry.created_at) %></td>
+      <td>
+        <%= link_to "Delete", entry_path(entry), class: 'btn btn-danger',
+                                                 role: 'button',
+                                                 method: :delete,
+                                                 data: { confirm: 'Are you sure?' } %>
+      </td>
+    </tr>
+    <% end %>
+  </table>
+  <% end %>
+</div>

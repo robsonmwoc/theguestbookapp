@@ -1,0 +1,21 @@
+{
+  "name": "guestbook",
+  "description": "A guestbook application",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Robson Mendonça <robsonmwoc@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}
