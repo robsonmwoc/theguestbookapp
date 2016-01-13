@@ -39,4 +39,4 @@ To execute Rubocop over the code, just run, inside the app folder:
 
 ## Author
 
-Robson Mendonça <robsonmwoc@gmail.com>
+Robson Mendonça <robsonmwoc at gmail>
